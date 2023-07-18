@@ -61,24 +61,21 @@ ol {
 }
 
 
-.back_tp{
+.back_tp {
   position: fixed;
-  bottom:80%;
-  right:5%;
+  bottom: 80%;
+  right: 5%;
   font-size: 40px;
   z-index: 99;
   color: #007f5f;
   opacity: 0;
   visibility: hidden;
   transition: .3s;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
+
   cursor: pointer;
 }
 
-.back_tp i{
+.back_tp i {
   background-color: #fff;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -88,9 +85,9 @@ ol {
 }
 
 .back_tp_fixed {
-opacity: 1;
-visibility: visible;
-bottom:10%;
+  opacity: 1;
+  visibility: visible;
+  bottom: 10%;
 }
 
 
@@ -103,9 +100,14 @@ bottom:10%;
 ============================================  */
 .main_menu {
   padding: 41px 0 !important;
-  background: rgb(255, 255, 255);
+  background: #fff;
 }
 
+
+.navbar-brand {
+  padding-top: 0.6125rem;
+  padding-bottom: 0;
+}
 
 .menu_fixed {
   position: sticky;
@@ -113,11 +115,25 @@ bottom:10%;
   top: 0;
   left: 0;
   z-index: 999;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  background: rgb(42, 230, 17);
+  padding: 10px 0 !important;
+  animation: menu_fixed 1s;
+  -webkit-animation: menu_fixed 1s;
 }
 
+@keyframes menu_fixed {
 
+  from {
+    top: -100px;
+  }
 
+  to {
+    top: 0;
+    left: 0;
+  }
+
+}
 
 
 .main_menu ul {
@@ -236,7 +252,9 @@ bottom:10%;
   -o-border-radius: 10px;
 }
 
-.search_item h3 {
+.banner_search .search_item_01,
+.search_item_02,
+.search_item_03, h3 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -244,11 +262,15 @@ bottom:10%;
   color: #292929;
 }
 
-.search_item h3 span {
+#banner .banner_search .search_item_01,
+.search_item_02,
+.search_item_03, h3 span {
   margin: 0 20px 0 10px;
 }
 
-.search_item input {
+.banner_search .search_item_01,
+.search_item_02,
+.search_item_03, input {
   border: none;
   margin-left: 26px;
   font-family: "Nunito Sans", sans-serif;
@@ -256,6 +278,7 @@ bottom:10%;
   line-height: 26px;
   font-weight: 400;
   color: #6a6a6a;
+  width: 100%;
 }
 
 .search_button button {
@@ -287,7 +310,7 @@ bottom:10%;
 /* ===========================================
                 Travel part start
 ============================================  */
-#Travel {
+#travel {
   padding: 150px 0;
 }
 
@@ -319,13 +342,12 @@ bottom:10%;
 }
 
 .travel_item:hover {
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
-    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  /* transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01); */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .travel_item .travel_image {
@@ -734,7 +756,7 @@ bottom:10%;
   margin-top: 20px;
 }
 
-.accordion_text .basic {
+.accordion_text p {
   width: 516px;
   margin: 20px 0 39px;
 }

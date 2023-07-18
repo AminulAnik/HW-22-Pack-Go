@@ -5,7 +5,34 @@ $('.dest_slider').slick({
   arrows: false,
   autoplaySpeed: 2000,
   centerMode: true,
-  centerPadding: '0'
+  centerPadding: '0',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 475.98,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+
 });
 
 
@@ -70,3 +97,29 @@ window.addEventListener('scroll', () => {
   })
 
 })
+
+
+// ========================Swiper responsive==================
+const swiperEl = document.querySelector('swiper-container')
+    Object.assign(swiperEl, {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        clickable: true,
+      },
+      breakpoints: {
+       576: {
+          slidesPerView: 1  ,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+    });
+    swiperEl.initialize();

@@ -1,0 +1,525 @@
+/* --------------medium--------- */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main_menu {
+
+        background: #df0d0d !important;
+    }
+}
+
+
+/* ----------small--------------- */
+
+@media (min-width:576px) and (max-width:767px) {
+    .main_menu {
+
+        background: #85e00d !important;
+    }
+}
+
+
+/* ---------x-small--------- */
+
+.basic {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+
+
+/* ===============================
+            Menu part start
+================================== */
+/* ===============================
+            Menu part end
+================================== */
+
+@media (max-width:575.98px) {
+
+    .navbar-toggler:focus {
+
+        box-shadow: none;
+    }
+
+    .main_menu {
+        padding: 15px 0 !important;
+        /* background: #e20606; */
+    }
+
+    .main_menu ul {
+        gap: 12px;
+        text-align: center;
+
+    }
+
+    .main_menu ul a:hover:after {
+        width: 30%;
+    }
+
+    .common_button {
+        text-align: center;
+        /* padding-top: .625rem; */
+        padding-bottom: .5rem;
+    }
+
+    /* ===============================
+            Menu part end
+================================== */
+
+    /* ===============================
+            Banner part start
+================================== */
+
+
+    #banner {
+        padding: 80px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+        line-height: 52px;
+        width: 100%;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        width: 100%;
+        line-height: 25px;
+        margin: 20px 0 20px 0;
+    }
+
+    #banner .common_button{
+        margin-bottom: 20px;
+    }
+
+    .banner_search {
+        margin-top: 20px;
+
+        padding: 24px 10px;
+
+    }
+
+    .banner_search .search_item_01, .search_item_02, .search_item_03, input {
+   
+        margin-left: 26px;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+      
+        width: 77%;
+    }
+
+    .banner_search {
+        padding: 24px;
+        background: #ffffff;
+        gap: 15px;
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+   
+       margin:0 auto ;
+        text-align: center;
+    }
+
+    /* ===============================
+            Banner part end
+================================== */
+
+
+    /* ===============================
+            Travel part start
+================================== */
+
+    #travel {
+        padding: 80px 0;
+    }
+
+    .travel_heading p {
+        width: 100%;
+        margin: 15px auto 0;
+    }
+
+    .travel_heading {
+        margin-bottom: 60px;
+    }
+
+    .travel_item {
+        padding: 45px 15px 45px;
+    }
+
+    .travel_item .travel_image {
+        margin: 0 auto;
+    }
+
+    .travel_item h3 {
+        margin: 20px 0 13px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .travel_item p {
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+
+
+    /* ===============================
+            Travel part end
+================================== */
+
+
+
+
+    /* ===============================
+        Destination part start
+================================== */
+
+    #destination {
+        padding-bottom: 80px;
+    }
+
+    .destination_heading p {
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .place_text>p {
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+
+
+    /* ===============================
+        Destination part end
+================================== */
+
+
+    /* ===============================
+            Counter part start
+================================== */
+
+    #counter {
+        padding: 80px 0;
+    }
+
+    .counter_text h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .counter_text>p {
+
+        width: 100%;
+        margin: 15px 0 15px;
+        text-align: center;
+
+    }
+
+    .counter_text ul li {
+        width: 100%;
+
+    }
+
+    .counter_text ul .common_button {
+        margin: 20px 0;
+    }
+
+    .counter_item {
+        text-align: center;
+    }
+
+    /* .counter_item h3 span{
+        font-size: 500px;
+    }
+         */
+   
+
+    .counter_item .counter_icon {
+        margin: 15px auto;
+    }
+
+    /* ===============================
+            Counter part end
+================================== */
+
+
+
+
+    /* ===============================
+           Place part start
+================================== */
+
+    #place {
+        padding: 80px 0;
+    }
+
+    .place_text h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .place_img {
+        margin-top: 15px;
+    }
+
+    .place_img .recommend_dest {
+        display: none;
+    }
+
+
+    .place_text_2 h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .place_text_2>p {
+        width: 100%;
+        margin: 15px 0 15px;
+        text-align: center;
+    }
+
+    .place_text_2 .promo {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+    .accordion_text h2 {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .accordion_text p {
+        width: 100%;
+        margin: 15px 0 15px;
+        text-align: center;
+    }
+
+    .accordion_part {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .place_comment {
+        display: none;
+    }
+
+    /* ===============================
+           Place part end
+================================== */
+
+
+    /* ===============================
+            Explore part start
+================================== */
+
+    .explore_heading h2 {
+        text-align: center;
+    }
+
+    #explore .explore_heading p {
+        width: 100%;
+        padding: 15px 0 15px;
+        text-align: center;
+    }
+
+    .explore_nav {
+        margin-bottom: 20px;
+    }
+
+    .explore_nav .nav {
+        gap: px;
+        justify-content: center;
+    }
+
+
+    .explore_nav button {
+        padding: 10px 20px;
+        font-size: 10px;
+        
+    }
+    /* ===============================
+            Explore part end
+================================== */
+
+
+
+
+
+    /* ===============================
+            Testimonial part start
+================================== */
+#testimonial {
+padding: 50px 0 0;
+}
+
+.testimonial_text_part {
+	padding-top: 0px;
+}
+
+
+
+.test_img {
+	display: none;
+}
+
+.testimonial_text{
+    text-align: center;
+}
+
+.slick-slider {
+ 
+	text-align: center;
+}
+
+#testimonial .testimonial_slider p {
+	color: #616161;
+	font-size: 15px;
+	font-family: Poppins;
+	line-height: 25px;
+	width: 100%;
+}
+.testimonial_slider .slick-dots {
+	justify-content: center;
+}
+
+    /* ===============================
+            Testimonial part end
+================================== */
+
+
+
+    /* ===============================
+            Subscribe part start
+================================== */
+#subscribe {
+	margin-top: 80px;
+}
+
+.sub_items {
+	padding: 60px 0;
+}
+
+.sub_items .sub_text h2 {
+	width: 100%;
+}
+
+.sub_items .sub_text p {
+    width: 100%;
+    padding: 15px 0 15px;
+	margin: 0 auto;
+	
+}
+
+
+
+.sub_input {
+	
+	width: 100%;
+	padding: 8px 8px 8px 15px;
+	
+	
+}
+
+
+.sub_input button {
+	padding: 10px 14px;
+	border-radius: 17px;
+	font-size: 11px;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-ms-border-radius: 17px;
+	-o-border-radius: 17px;
+}
+
+    /* ===============================
+            Subscribe part end
+================================== */
+
+
+
+
+    /* ===============================
+            Travel part start
+================================== */
+
+#footer {
+	padding: 80px 0 ;
+}
+
+.footer_logo{
+    text-align: center;
+}
+
+#footer .footer_icon ul {
+	
+	gap: 25px;
+	padding: 15px 0;
+	justify-content: center;
+	
+}
+
+#footer .footer_icon ul li a {
+	font-size: 25px;
+}
+
+
+#footer address {
+    width: 100%;
+    /* padding: 15px 0 15px; */
+    text-align: center;
+    margin-bottom: 1rem;
+   
+}
+
+.footer_details_1, .footer_details_3{
+    text-align: center;
+}
+
+.footer_details_2 {
+	/* margin-left: 0px; */
+    margin: 15px 0 15px;
+    text-align: center;
+}
+
+.footer_heading {
+	font-size: 25px;
+	line-height: 25px;
+}
+
+
+.footer_basic {
+	color: #616161;
+	font-size: 15px;
+	font-family: Poppins;
+	line-height: 25px;
+}
+
+
+
+
+    /* ===============================
+            Travel part end
+================================== */
+
+
+
+
+    /* ===============================
+            Travel part start
+================================== */
+    /* ===============================
+            Travel part end
+================================== */
+}
