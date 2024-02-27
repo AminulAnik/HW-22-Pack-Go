@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -60,7 +60,6 @@ ol {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-
 .back_tp {
   position: fixed;
   bottom: 80%;
@@ -70,7 +69,7 @@ ol {
   color: #007f5f;
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
+  transition: 0.3s;
 
   cursor: pointer;
 }
@@ -90,7 +89,6 @@ ol {
   bottom: 10%;
 }
 
-
 /* ===========================================
                 common css end
 ============================================  */
@@ -99,10 +97,9 @@ ol {
                 Menu part start
 ============================================  */
 .main_menu {
-  padding: 41px 0 !important;
+  padding: 40px 0 !important;
   background: #fff;
 }
-
 
 .navbar-brand {
   padding-top: 0.6125rem;
@@ -123,7 +120,6 @@ ol {
 }
 
 @keyframes menu_fixed {
-
   from {
     top: -100px;
   }
@@ -132,9 +128,7 @@ ol {
     top: 0;
     left: 0;
   }
-
 }
-
 
 .main_menu ul {
   gap: 34px;
@@ -254,7 +248,8 @@ ol {
 
 .banner_search .search_item_01,
 .search_item_02,
-.search_item_03, h3 {
+.search_item_03,
+h3 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -264,13 +259,15 @@ ol {
 
 #banner .banner_search .search_item_01,
 .search_item_02,
-.search_item_03, h3 span {
+.search_item_03,
+h3 span {
   margin: 0 20px 0 10px;
 }
 
 .banner_search .search_item_01,
 .search_item_02,
-.search_item_03, input {
+.search_item_03,
+input {
   border: none;
   margin-left: 26px;
   font-family: "Nunito Sans", sans-serif;
@@ -347,7 +344,8 @@ ol {
   -moz-transform: scale(1.01);
   -ms-transform: scale(1.01);
   -o-transform: scale(1.01); */
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .travel_item .travel_image {
@@ -389,7 +387,6 @@ ol {
   width: 692px;
   margin: 20px auto 0;
 }
-
 
 .dest_slider h3 {
   margin-top: 5px;
@@ -513,7 +510,7 @@ ol {
   width: 418px;
 }
 
-.counter_text>p {
+.counter_text > p {
   width: 516px;
   margin: 20px 0 10px;
 }
@@ -604,7 +601,7 @@ ol {
   width: 507px;
 }
 
-.place_text>p {
+.place_text > p {
   width: 516px;
   margin: 20px 0 40px;
 }
@@ -618,12 +615,11 @@ ol {
   top: 424px;
 }
 
-
 .place_img .recommend_box p {
   font-size: 16px;
   font-weight: 400;
   color: #616161;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-left: 12px;
 }
 
@@ -636,13 +632,13 @@ ol {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  -webkit-box-shadow: inset 2px -8px 0px -5px #EFF3F5;
-  -moz-box-shadow: inset 2px -8px 0px -5px #EFF3F5;
-  box-shadow: inset 2px -8px 0px -5px #EFF3F5;
+  -webkit-box-shadow: inset 2px -8px 0px -5px #eff3f5;
+  -moz-box-shadow: inset 2px -8px 0px -5px #eff3f5;
+  box-shadow: inset 2px -8px 0px -5px #eff3f5;
 }
 
 .recommend_box span {
-  color: #007F5F;
+  color: #007f5f;
   display: flex;
   align-items: center;
 }
@@ -656,52 +652,50 @@ ol {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .recommend_location ul li p {
   font-size: 16px;
   font-weight: 400;
   color: #616161;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .recommend_location ul li:nth-child(1) span {
   margin-left: 179px;
-  color: #007F5F;
+  color: #007f5f;
 }
 
 .recommend_location ul li:nth-child(2) span {
   margin-left: 148px;
-  color: #007F5F;
+  color: #007f5f;
 }
 
 .recommend_location ul li:nth-child(3) span {
   margin-left: 146px;
-  color: #007F5F;
+  color: #007f5f;
 }
-
 
 .recommend_dest .recommend_location ul li:hover {
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transform: scale(1.0);
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -ms-transform: scale(1.0);
-  -o-transform: scale(1.0);
-
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
 }
 
 .recommend_dest .recommend_location ul li:hover p {
   font-size: 16;
   font-weight: 600;
   color: #616161;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* ===========================================
@@ -723,7 +717,7 @@ ol {
   margin-bottom: 20px;
 }
 
-.place_text_2>p {
+.place_text_2 > p {
   width: 431px;
 }
 
@@ -776,7 +770,7 @@ ol {
 }
 
 .accordion_part .accordion-item {
-  background: rgba(0, 127, 95, 0.10);
+  background: rgba(0, 127, 95, 0.1);
   border: none;
   border-radius: 14px;
   -webkit-border-radius: 14px;
@@ -788,7 +782,7 @@ ol {
 .accordion_part button {
   font-size: 18px;
   font-weight: 500;
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-family: "Poppins", sans-serif;
 }
 
@@ -805,8 +799,8 @@ ol {
 }
 
 .accordion_part .accordion-button:not(.collapsed) span {
-  background-color: #007F5F;
-  border-color: #007F5F;
+  background-color: #007f5f;
+  border-color: #007f5f;
 }
 
 .place_3_img {
@@ -818,7 +812,7 @@ ol {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #fff;
   position: absolute;
   top: 374px;
@@ -831,11 +825,11 @@ ol {
   width: fit-content;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .place_comment .place_comment_2 {
@@ -843,7 +837,7 @@ ol {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #fff;
   position: absolute;
   top: 442px;
@@ -856,11 +850,11 @@ ol {
   width: fit-content;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .place_comment .place_comment_3 {
@@ -868,7 +862,7 @@ ol {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #fff;
   position: absolute;
   top: 523px;
@@ -881,11 +875,11 @@ ol {
   width: fit-content;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .place_comment_1:hover,
@@ -922,7 +916,7 @@ ol {
   padding: 16px 25px;
   color: #616161;
   border-radius: 17px !important;
-  background: #F3F3F3;
+  background: #f3f3f3;
   -webkit-border-radius: 17px !important;
   -moz-border-radius: 17px !important;
   -ms-border-radius: 17px !important;
@@ -930,13 +924,11 @@ ol {
   font-size: 16px;
   font-family: Poppins;
   font-weight: 600;
-
 }
 
 .explore_nav .active {
-  background: #007F5F !important;
-  color: #FFF !important;
-
+  background: #007f5f !important;
+  color: #fff !important;
 }
 
 .explore_nav .nav {
@@ -955,7 +947,6 @@ ol {
 .nav-link:focus,
 .nav-link:hover {
   color: #616161;
-  ;
 }
 
 #explore .icon {
@@ -978,18 +969,17 @@ ol {
   position: relative;
 }
 
-
 .test_img .test_item_1 {
   position: absolute;
   top: 0px;
   right: 150px;
   width: 114.36px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .test_img .test_item_1:hover {
@@ -998,7 +988,6 @@ ol {
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
-
 }
 
 .test_img .test_item_2 {
@@ -1007,11 +996,11 @@ ol {
   right: 325px;
   width: 80.92px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .test_img .test_item_2:hover {
@@ -1022,18 +1011,17 @@ ol {
   -o-transform: scale(1.05);
 }
 
-
 .test_img .test_item_3 {
   position: absolute;
   top: 228px;
   right: 522px;
   width: 123.72px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .test_img .test_item_3:hover {
@@ -1044,18 +1032,17 @@ ol {
   -o-transform: scale(1.05);
 }
 
-
 .test_img .test_item_4 {
   position: absolute;
   top: 418px;
   right: 365px;
   width: 107.67px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .test_img .test_item_4:hover {
@@ -1066,18 +1053,17 @@ ol {
   -o-transform: scale(1.05);
 }
 
-
 .test_img .test_item_5 {
   position: absolute;
   top: 355px;
   right: 118px;
   width: 107.67px;
   cursor: pointer;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .test_img .test_item_5:hover {
@@ -1088,14 +1074,12 @@ ol {
   -o-transform: scale(1.05);
 }
 
-
 .testimonial_text_part {
   padding-top: 115px;
-
 }
 
 #testimonial .testimonial_text ul li {
-  color: #007F5F;
+  color: #007f5f;
   font-size: 45px;
   padding-top: 10px;
 }
@@ -1110,13 +1094,12 @@ ol {
 
 #testimonial .testimonial_slider h3 {
   padding-top: 5px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-size: 20px;
   font-family: Poppins;
   font-weight: 600;
   line-height: 30px;
 }
-
 
 .testimonial_slider .slick-dots {
   display: flex;
@@ -1129,7 +1112,7 @@ ol {
   border: none;
   font-size: 0;
   border-radius: 8px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
@@ -1137,7 +1120,7 @@ ol {
 }
 
 .testimonial_slider .slick-dots .slick-active button {
-  background-color: #007F5F;
+  background-color: #007f5f;
 }
 
 /* ===========================================
@@ -1161,21 +1144,20 @@ ol {
 
 .sub_items .sub_text h2 {
   width: 660px;
-  color: #FFF;
+  color: #fff;
   margin: 0 auto;
 }
 
 .sub_items .sub_text p {
   width: 565px;
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
   margin: 0 auto;
   padding: 20px 0 50px;
 }
 
-
 .sub_input {
   border-radius: 17px;
-  background: #FFF;
+  background: #fff;
   padding: 10px 10px 10px 25px;
   width: 770px;
   display: flex;
@@ -1190,17 +1172,17 @@ ol {
 .sub_input button {
   padding: 30px 40px;
   border-radius: 17px;
-  background: #007F5F;
+  background: #007f5f;
   border: none;
-  color: #FFF !important;
+  color: #fff !important;
   font-size: 16px;
   font-family: Poppins;
   font-weight: 600;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
 }
 
 .sub_input button:hover {
@@ -1239,7 +1221,7 @@ ol {
 }
 
 .footer_heading {
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-size: 25px;
   font-family: Poppins;
   font-weight: 600;
@@ -1255,11 +1237,11 @@ ol {
 
 #footer .items ul {
   margin-top: 10px;
-  transition: all linear .3s;
-  -webkit-transition: all linear .3s;
-  -moz-transition: all linear .3s;
-  -ms-transition: all linear .3s;
-  -o-transition: all linear .3s;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
   cursor: pointer;
 }
 
@@ -1274,8 +1256,6 @@ ol {
 /* ===========================================
                 footer part end
 ============================================  */
-
-
 
 /* =====================
     Menu css Start
